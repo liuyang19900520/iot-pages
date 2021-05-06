@@ -230,7 +230,7 @@ $(document).ready(function($) {
     "use strict";
 
     /*-------------------------------------------------*/
-    /* =  Change text "Use two fingers to move the map" in contact.html
+    /* =  Change text "Use two fingers to move the map" in contact_cn.html
     /*-------------------------------------------------*/
     $('#map').on("click",function() {
         $( ".gm-style-pbt" ).text( "insert your text" );
