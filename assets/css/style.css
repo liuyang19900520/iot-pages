@@ -111,7 +111,7 @@ h1 {
 
 h1.heading {
   color: #757575;
-  
+
   letter-spacing: 0;
   max-width: 800px;
   margin: 0 auto;
@@ -233,7 +233,7 @@ a.btn {
   text-align: center;
   font-size: 12px;
   letter-spacing: 1px;
-  
+
   text-transform: uppercase;
   display: inline-block;
   overflow: hidden;
@@ -439,7 +439,7 @@ p {
 
 p.heading {
   color: #757575;
-  
+
   font-size: 22px;
   line-height: 30px;
   max-width: 600px;
@@ -532,7 +532,7 @@ button {
 
 i {
   font-style: italic;
-  
+
 }
 
 i.service {
@@ -585,7 +585,7 @@ b, strong {
 
 dl {
   margin: 25px 0;
-  
+
   font-size: 14px;
   line-height: 24px;
 }
@@ -593,7 +593,7 @@ dl {
 dl dt {
   text-transform: uppercase;
   letter-spacing: 2px;
-  
+
   font-size: 12px;
   line-height: 22px;
 }
@@ -610,7 +610,7 @@ dl dd {
 ol {
   list-style: decimal;
   padding-left: 28px;
-  
+
   color: #757575;
   font-size: 14px;
   line-height: 24px;
@@ -676,7 +676,7 @@ pre {
   background: #F6F6F6;
   overflow: hidden;
   border-radius: 0;
-  
+
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1px;
@@ -696,7 +696,7 @@ blockquote, q {
   font-size: 16px;
   line-height: 26px;
   padding-left: 36px;
-  
+
   color: #757575;
   font-weight: 300;
   font-style: italic;
@@ -865,7 +865,7 @@ textarea {
   font-size: 12px;
   color: #444444;
   text-decoration: none;
-  
+
   font-weight: 400;
   text-transform: uppercase;
   border-radius: 2px;
@@ -957,7 +957,7 @@ textarea {
   color: #757575;
   font-size: 14px;
   line-height: 24px;
-  
+
   letter-spacing: 1px;
   padding-top: 25px;
   font-weight: 300;
@@ -1002,7 +1002,7 @@ textarea {
   font-size: 16px;
   line-height: 28px;
   text-decoration: none;
-  
+
   color: #757575;
   display: block;
   z-index: 2;
@@ -1019,7 +1019,7 @@ textarea {
   color: #444444;
   font-size: 16px;
   line-height: 26px;
-  
+
   font-weight: 300;
   padding: 25px 0;
 }
@@ -1679,6 +1679,7 @@ img[class~="center"] {
   height: auto;
 }
 
+
 .img-full {
   display: block;
   width: 100%;
@@ -1852,7 +1853,7 @@ header .top-nav .secondary-menu ul li {
   display: inline-block;
   margin-right: 30px;
   font-size: 14px;
-  
+
   font-weight: 300;
   color: #757575;
 }
@@ -1909,7 +1910,7 @@ header .top-nav .secondary-menu ul li.lang span {
 }
 
 header .top-nav .secondary-menu ul li.lang span.current a {
-  
+
   text-transform: uppercase;
   font-size: 14px;
   padding: 21px 0;
@@ -1955,7 +1956,7 @@ header .top-nav .secondary-menu ul li.lang ul {
 
 header .top-nav .secondary-menu ul li.lang ul li a {
   margin-left: 0;
-  
+
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
@@ -2029,7 +2030,7 @@ header nav.navbar .secondary-menu-mobile ul li {
   display: inline-block;
   margin-right: 30px;
   font-size: 14px;
-  
+
   font-weight: 300;
   color: #757575;
 }
@@ -2086,7 +2087,7 @@ header nav.navbar .secondary-menu-mobile ul li.lang span {
 }
 
 header nav.navbar .secondary-menu-mobile ul li.lang span.current a {
-  
+
   text-transform: uppercase;
   font-size: 14px;
   padding: 21px 0;
@@ -2131,7 +2132,7 @@ header nav.navbar .secondary-menu-mobile ul li.lang ul {
 
 header nav.navbar .secondary-menu-mobile ul li.lang ul li a {
   margin-left: 0;
-  
+
   text-transform: uppercase;
   font-size: 14px;
   color: white;
@@ -2254,7 +2255,7 @@ header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu li a, header nav.
   font-size: 14px;
   line-height: 30px;
   text-transform: none;
-  
+
   transition: padding-left .4s ease;
 }
 
@@ -2319,7 +2320,7 @@ header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu.mega-sub-menu li 
   font-size: 14px;
   line-height: 30px;
   text-transform: none;
-  
+
   transition: padding-left .4s ease;
 }
 
@@ -2348,7 +2349,7 @@ header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu.mega-sub-menu li.
 
 header nav.navbar #menu .menu-holder ul li.submenu ul.sub-menu.mega-sub-menu span.header, header nav.navbar #sidemenu .menu-holder ul li.submenu ul.sub-menu.mega-sub-menu span.header, header nav.navbar #menu-classic .menu-holder ul li.submenu ul.sub-menu.mega-sub-menu span.header {
   display: block;
-  
+
   color: white;
   font-size: 16px;
   line-height: 26px;
@@ -2502,7 +2503,7 @@ header nav.navbar #menu .menu-holder button.close-menu, header nav.navbar #sidem
     font-size: 12px;
     line-height: 22px;
     text-transform: uppercase;
-    
+
   }
   header nav.navbar #menu.open .menu-holder ul li a:focus, header nav.navbar #sidemenu.open .menu-holder ul li a:focus, header nav.navbar #menu-classic.open .menu-holder ul li a:focus {
     text-decoration: none;
@@ -2656,7 +2657,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.submenu, header nav.navb
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.submenu > a, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.submenu > a, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.submenu > a {
   padding: 0;
-  
+
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.submenu ul.sub-menu, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.submenu ul.sub-menu, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.submenu ul.sub-menu {
@@ -2686,7 +2687,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.submenu ul.sub-menu li a
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
-  
+
   font-weight: 300;
 }
 
@@ -2716,7 +2717,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.lang span, header nav.na
 }
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.lang span.current a, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.lang span.current a, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.lang span.current a {
-  
+
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
@@ -2743,7 +2744,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.lang ul, header nav.navb
 
 header nav.navbar #menu.minimal.open .menu-holder ul li.lang ul li a, header nav.navbar #sidemenu.minimal.open .menu-holder ul li.lang ul li a, header nav.navbar #menu-classic.minimal.open .menu-holder ul li.lang ul li a {
   margin-left: 0;
-  
+
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 2px;
@@ -2753,7 +2754,7 @@ header nav.navbar #menu.minimal.open .menu-holder ul li.lang ul li a, header nav
 header nav.navbar #menu.minimal.open .menu-holder ul a, header nav.navbar #sidemenu.minimal.open .menu-holder ul a, header nav.navbar #menu-classic.minimal.open .menu-holder ul a {
   font-size: 20px;
   line-height: 30px;
-  
+
   color: white;
   margin-left: 0;
 }
@@ -2825,7 +2826,7 @@ header nav.navbar #menu-classic {
     line-height: 28px;
     text-transform: uppercase;
     font-weight: 300;
-    
+
   }
   header nav.navbar #menu-classic.open .menu-holder ul li.submenu ul.sub-menu.mega-sub-menu li div {
     text-align: left;
@@ -3066,7 +3067,7 @@ header nav.navbar.white #search-box .form-input i {
 header nav.navbar.white #search-box .form-input ::-webkit-input-placeholder {
   font-size: 40px;
   line-height: 75px;
-  
+
   letter-spacing: 1px;
 }
 
@@ -3080,7 +3081,7 @@ header nav.navbar.white #search-box .form-input ::-webkit-input-placeholder {
 header nav.navbar.white #search-box .form-input :-moz-placeholder {
   font-size: 40px;
   line-height: 75px;
-  
+
   letter-spacing: 1px;
 }
 
@@ -3094,7 +3095,7 @@ header nav.navbar.white #search-box .form-input :-moz-placeholder {
 header nav.navbar.white #search-box .form-input ::-moz-placeholder {
   font-size: 40px;
   line-height: 75px;
-  
+
   letter-spacing: 1px;
 }
 
@@ -3108,7 +3109,7 @@ header nav.navbar.white #search-box .form-input ::-moz-placeholder {
 header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
   font-size: 40px;
   line-height: 75px;
-  
+
   letter-spacing: 1px;
 }
 
@@ -3456,7 +3457,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 #page-content #projects ul.filters li, #page-content #projects-filters ul.filters li, #page-content #masonry-filters ul.filters li {
   display: inline-block;
   font-size: 12px;
-  
+
   text-transform: none;
   color: #444444;
   font-weight: 300;
@@ -3491,7 +3492,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
   font-size: 12px;
   line-height: 22px;
   top: -8px;
-  
+
   font-weight: 300;
 }
 
@@ -3502,11 +3503,11 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
   margin-left: -15px;
   margin: 16px 0;
   font-weight: 300;
-  
+
   padding: 0 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  
+
   font-size: 14px;
   line-height: 24px;
 }
@@ -3560,7 +3561,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 
 #page-content #projects .projects-items .single-item .item span.categories, #page-content #projects .masonry-items .single-item .item span.categories, #page-content #projects-filters .projects-items .single-item .item span.categories, #page-content #projects-filters .masonry-items .single-item .item span.categories, #page-content #masonry-filters .projects-items .single-item .item span.categories, #page-content #masonry-filters .masonry-items .single-item .item span.categories {
   color: #444444;
-  
+
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0;
@@ -3727,7 +3728,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 
 #page-content #news .single-news article span.category {
   color: #90A94D;
-  
+
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0;
@@ -3738,7 +3739,7 @@ header nav.navbar.white #search-box .form-input :-ms-input-placeholder {
 
 #page-content #news .single-news article span.date {
   color: #444444;
-  
+
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0;
@@ -4037,7 +4038,7 @@ aside.sidebar form .form-input input {
   border: none;
   outline: inherit;
   padding: 10px 140px 10px 9px;
-  
+
   font-size: 14px;
   font-weight: 300;
   background-color: #F6F6F6;
@@ -4056,28 +4057,28 @@ aside.sidebar form .form-input input:focus {
 }
 
 aside.sidebar form .form-input ::-webkit-input-placeholder {
-  
+
   color: #757575;
   font-size: 14px;
   font-weight: 300;
 }
 
 aside.sidebar form .form-input :-moz-placeholder {
-  
+
   color: #757575;
   font-size: 14px;
   font-weight: 300;
 }
 
 aside.sidebar form .form-input ::-moz-placeholder {
-  
+
   color: #757575;
   font-size: 14px;
   font-weight: 300;
 }
 
 aside.sidebar form .form-input :-ms-input-placeholder {
-  
+
   color: #757575;
   font-size: 14px;
   font-weight: 300;
@@ -4091,7 +4092,7 @@ aside.sidebar form .form-input span.form-button {
   top: 0px;
   font-size: 14px;
   font-weight: 400;
-  
+
   text-transform: uppercase;
   line-height: 34px;
   color: white;
@@ -4177,7 +4178,7 @@ aside.sidebar ul.tagCloud li {
 
 aside.sidebar ul.tagCloud li a {
   color: #757575;
-  
+
   font-size: 14px;
   line-height: 36px;
   height: 36px;
@@ -4265,7 +4266,7 @@ aside.left form .form-input span.form-button {
 }
 
 #nav span {
-  
+
   font-weight: 300;
 }
 
@@ -4546,7 +4547,7 @@ aside.left form .form-input span.form-button {
 .content-section ul.services li em {
   font-size: 36px;
   line-height: 40px;
-  
+
 }
 
 .content-section ul.services li .icon {
@@ -4742,7 +4743,7 @@ aside.left form .form-input span.form-button {
 .content-post ul {
   list-style: disc;
   padding-left: 28px;
-  
+
   color: #757575;
   font-size: 14px;
   line-height: 24px;
@@ -4940,7 +4941,7 @@ aside.page-sidebar .widget-wrapper p {
 
 #comments .comment .header {
   height: 25px;
-  
+
   font-weight: 300;
   color: #90A94D;
   font-size: 16px;
@@ -5121,7 +5122,7 @@ aside.page-sidebar .widget-wrapper p {
 
 .project-images.grid .image span.content span.title {
   display: block;
-  
+
   font-size: 12px;
   line-height: 22px;
   color: white;
@@ -5137,7 +5138,7 @@ aside.page-sidebar .widget-wrapper p {
 
 .project-images.grid .image span.content em {
   display: block;
-  
+
   font-weight: 400;
   color: white;
   font-size: 35px;
@@ -5286,7 +5287,7 @@ aside.page-sidebar .widget-wrapper p {
   width: 100%;
   margin-bottom: 25px;
   padding: 10px;
-  
+
   font-size: 14px;
   line-height: 14px;
   background-color: #F6F6F6;
@@ -5300,7 +5301,7 @@ aside.page-sidebar .widget-wrapper p {
 
 #contact-form .form-field.big, #search-form .form-field.big {
   font-size: 40px;
-  
+
   letter-spacing: 1px;
   padding-right: 70px;
   line-height: 40px;
@@ -5331,25 +5332,25 @@ aside.page-sidebar .widget-wrapper p {
 }
 
 #contact-form ::-webkit-input-placeholder, #search-form ::-webkit-input-placeholder {
-  
+
   color: #757575;
   font-size: 14px;
 }
 
 #contact-form :-moz-placeholder, #search-form :-moz-placeholder {
-  
+
   color: #757575;
   font-size: 14px;
 }
 
 #contact-form ::-moz-placeholder, #search-form ::-moz-placeholder {
-  
+
   color: #757575;
   font-size: 14px;
 }
 
 #contact-form :-ms-input-placeholder, #search-form :-ms-input-placeholder {
-  
+
   color: #757575;
   font-size: 14px;
 }
@@ -5359,7 +5360,7 @@ aside.page-sidebar .widget-wrapper p {
   text-align: left;
   font-size: 12px;
   line-height: 22px;
-  
+
   text-transform: uppercase;
   display: inline-block;
   overflow: hidden;
@@ -5395,7 +5396,7 @@ aside.page-sidebar .widget-wrapper p {
   padding-left: 30px;
   text-align: center;
   font-size: 12px;
-  
+
   display: inline-block;
   overflow: hidden;
   outline: none;
@@ -5504,7 +5505,7 @@ aside.page-sidebar .widget-wrapper p {
 
 #contact-form.big ::-webkit-input-placeholder, #search-form.big ::-webkit-input-placeholder {
   font-size: 40px;
-  
+
   letter-spacing: 1px;
 }
 
@@ -5516,7 +5517,7 @@ aside.page-sidebar .widget-wrapper p {
 
 #contact-form.big :-moz-placeholder, #search-form.big :-moz-placeholder {
   font-size: 40px;
-  
+
   letter-spacing: 1px;
 }
 
@@ -5528,7 +5529,7 @@ aside.page-sidebar .widget-wrapper p {
 
 #contact-form.big ::-moz-placeholder, #search-form.big ::-moz-placeholder {
   font-size: 40px;
-  
+
   letter-spacing: 1px;
 }
 
@@ -5540,7 +5541,7 @@ aside.page-sidebar .widget-wrapper p {
 
 #contact-form.big :-ms-input-placeholder, #search-form.big :-ms-input-placeholder {
   font-size: 40px;
-  
+
   letter-spacing: 1px;
 }
 
@@ -5551,7 +5552,7 @@ aside.page-sidebar .widget-wrapper p {
 }
 
 span.contact-info {
-  
+
   color: #444444;
   font-size: 16px;
   line-height: 26px;
@@ -5625,7 +5626,7 @@ span.contact-info em {
   border-bottom: 1px solid white;
   width: 80%;
   padding: 18px 50px 18px 30px;
-  
+
   font-size: 14px;
   font-weight: 300;
   height: 40px;
@@ -5661,7 +5662,7 @@ span.contact-info em {
   font-size: 12px;
   line-height: 22px;
   letter-spacing: 2px;
-  
+
   text-transform: uppercase;
   display: inline-block;
   overflow: hidden;
@@ -5709,7 +5710,7 @@ span.contact-info em {
   text-align: center;
   font-size: 12px;
   letter-spacing: 1px;
-  
+
   display: inline-block;
   overflow: hidden;
   outline: none;
@@ -5853,7 +5854,7 @@ footer h4, .footer h4 {
 
 footer ul.sitemap li, footer ul.info li, .footer ul.sitemap li, .footer ul.info li {
   color: #F6F6F6;
-  
+
   font-size: 14px;
   line-height: 26px;
   font-weight: 300;
@@ -5861,7 +5862,7 @@ footer ul.sitemap li, footer ul.info li, .footer ul.sitemap li, .footer ul.info 
 
 footer ul.sitemap li a, footer ul.info li a, .footer ul.sitemap li a, .footer ul.info li a {
   color: #F6F6F6;
-  
+
   font-size: 14px;
   line-height: 26px;
   font-weight: 300;
@@ -6068,7 +6069,7 @@ img.shadow {
   display: block;
   font-size: 48px;
   line-height: 50px;
-  
+
   font-weight: 500;
 }
 
@@ -6076,7 +6077,7 @@ img.shadow {
   font-size: 14px;
   line-height: 20px;
   color: #757575;
-  
+
   font-weight: 300;
   margin-bottom: 36px;
   text-transform: uppercase;
@@ -6121,7 +6122,7 @@ img.shadow {
   font-size: 22px;
   line-height: 32px;
   color: #444444;
-  
+
   font-weight: 300;
   margin-bottom: 36px;
 }
@@ -6130,7 +6131,7 @@ img.shadow {
   font-size: 48px;
   line-height: 50px;
   color: #444444;
-  
+
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -6139,7 +6140,7 @@ img.shadow {
   font-size: 14px;
   line-height: 20px;
   color: #757575;
-  
+
   font-weight: 300;
   margin-bottom: 36px;
   text-transform: uppercase;
@@ -6150,7 +6151,7 @@ img.shadow {
 }
 
 #pricing .price ul li {
-  
+
   font-size: 16px;
   line-height: 36px;
   font-weight: 300;
@@ -6308,7 +6309,7 @@ img.shadow {
   margin: 0;
   padding: 0;
   border: none;
-  
+
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
@@ -6388,7 +6389,7 @@ table {
   line-height: 20px;
   letter-spacing: 1px;
   border: 1px solid #20292E;
-  
+
   font-weight: 300;
 }
 
@@ -6398,7 +6399,7 @@ table th {
   text-align: left;
   padding: 15px;
   border: 1px solid #20292E;
-  
+
 }
 
 table td {
@@ -6412,7 +6413,7 @@ table td {
   border-radius: 0;
   border: none;
   background-image: none;
-  
+
   letter-spacing: 1px;
   font-size: 14px;
 }
@@ -6442,7 +6443,7 @@ table td {
 }
 
 .alert .close {
-  
+
   font-size: 30px;
   font-weight: 300;
   top: -4px;
@@ -6466,7 +6467,7 @@ table td {
 
 #skills ul.skill-list em {
   color: #757575;
-  
+
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0;
@@ -6481,7 +6482,7 @@ table td {
   color: #444444;
   font-size: 18px;
   line-height: 20px;
-  
+
   letter-spacing: 1px;
   list-style: none;
   margin-bottom: 25px;
@@ -6634,7 +6635,7 @@ table td {
 em.number {
   font-size: 80px;
   line-height: 80px;
-  
+
   font-weight: 600;
   color: #F6F6F6;
   float: left;
@@ -6891,7 +6892,7 @@ ul.timeline li:nth-child(odd):hover .title {
   border: none;
   outline: inherit;
   padding: 10px 90px 10px 9px;
-  
+
   font-size: 14px;
   font-weight: 300;
   background-color: #20292E;
@@ -6910,28 +6911,28 @@ ul.timeline li:nth-child(odd):hover .title {
 }
 
 #newsletter-form form .form-input ::-webkit-input-placeholder {
-  
+
   color: white;
   font-size: 14px;
   font-weight: 300;
 }
 
 #newsletter-form form .form-input :-moz-placeholder {
-  
+
   color: white;
   font-size: 14px;
   font-weight: 300;
 }
 
 #newsletter-form form .form-input ::-moz-placeholder {
-  
+
   color: white;
   font-size: 14px;
   font-weight: 300;
 }
 
 #newsletter-form form .form-input :-ms-input-placeholder {
-  
+
   color: white;
   font-size: 14px;
   font-weight: 300;
@@ -6945,7 +6946,7 @@ ul.timeline li:nth-child(odd):hover .title {
   top: 0px;
   font-size: 14px;
   font-weight: 300;
-  
+
   text-transform: uppercase;
   line-height: 34px;
   color: white;
@@ -7004,7 +7005,7 @@ ul.timeline li:nth-child(odd):hover .title {
   border: none;
   outline: inherit;
   padding: 10px 90px 10px 9px;
-  
+
   font-size: 14px;
   font-weight: 300;
   background-color: #20292E;
@@ -7023,28 +7024,28 @@ ul.timeline li:nth-child(odd):hover .title {
 }
 
 #header-searchform form .form-input ::-webkit-input-placeholder {
-  
+
   color: white;
   font-size: 14px;
   font-weight: 300;
 }
 
 #header-searchform form .form-input :-moz-placeholder {
-  
+
   color: white;
   font-size: 14px;
   font-weight: 300;
 }
 
 #header-searchform form .form-input ::-moz-placeholder {
-  
+
   color: white;
   font-size: 14px;
   font-weight: 300;
 }
 
 #header-searchform form .form-input :-ms-input-placeholder {
-  
+
   color: white;
   font-size: 14px;
   font-weight: 300;
@@ -7086,7 +7087,7 @@ ul.timeline li:nth-child(odd):hover .title {
   top: 0px;
   font-size: 14px;
   font-weight: 300;
-  
+
   text-transform: uppercase;
   line-height: 36px;
   color: #20292E;
