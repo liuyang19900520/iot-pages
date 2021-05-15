@@ -15,18 +15,18 @@
 
         <!-- Custom css -->
         <link rel="stylesheet" href="assets/css/style.css">
-        
+
         <!-- Font Awesome -->
         <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        
+
         <link rel="stylesheet" href="assets/css/ionicons.min.css">
-        
+
         <!-- Flexslider -->
         <link rel="stylesheet" href="assets/css/flexslider.css">
-        
+
         <!-- Owl -->
         <link rel="stylesheet" href="assets/css/owl.carousel.css">
-        
+
         <!-- Magnific Popup -->
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
@@ -38,7 +38,7 @@
         <![endif]-->
     </head>
     <body>
-      
+
         <!--  loader  -->
         <div id="myloader">
             <div class="loader">
@@ -55,7 +55,7 @@
                 </div>
             </div>
         </div>
-        
+
         <!--  Header & Menu  -->
 <!--        <header id="header">-->
 <!--            <div class="top-nav">-->
@@ -211,7 +211,7 @@
             </div>
         </header>
         <!--  END Header & Menu  -->
-            
+
         <!--  Main Wrap  -->
         <div id="main-wrap">
             <!--  Page Content  -->
@@ -235,15 +235,42 @@
                     <!--  Contact section  -->
                     <div class="container">
                     	<div class="map">
-                    		<iframe src="assets/map/map.html"></iframe>
-                    	</div>
-                        <div class="row no-margin padding-lg">
-                            <div class="col-md-12 padding-leftright-null">
-                                <div class="text text-left padding-topbottom-null">
-                                    <h2>发送消息</h2>
-                                </div>
+<!--                    		<iframe src="assets/map/map.html"></iframe>-->
+                            <div id="map" class="col-md-6 contact-top-left-wthree-agile" style="height: 600px ! important">
+
+                                <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d92622.7729403269!2d-112.03370705!3d43.49270405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1434188003159" frameborder="0" style="border:0"></iframe>-->
+                                <!--<iframe width="600" height="450" frameborder="0" style="border:0"-->
+                                <!--src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJyeSJVZVgGGARI3rAI1UgTWM&key=..." allowfullscreen></iframe>-->
                             </div>
-                            <div class="row no-margin padding-onlytop-md">
+                            <!-- google maps by liuyang-->
+                            <script>
+                                function initMap() {
+                                    var uluru = {
+                                        lat: 35.658454,
+                                        lng: 139.757296
+                                    };
+                                    var map = new google.maps.Map(document.getElementById('map'), {
+                                        zoom: 16,
+                                        center: uluru
+                                    });
+                                    var marker = new google.maps.Marker({
+                                        position: uluru,
+                                        map: map
+                                    });
+                                }
+                            </script>
+                            <script async defer
+                                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO2jFUiD0IB_PIFq5MU2brvCcsBvS-5Bo&callback=initMap">
+                            </script>
+                            <!-- google maps by liuyang end-->
+                    	</div>
+                        <div >
+<!--                            <div class="col-md-12 padding-leftright-null">-->
+<!--                                <div class="text text-left padding-topbottom-null">-->
+<!--                                    <h2>发送消息</h2>-->
+<!--                                </div>-->
+<!--                            </div>-->
+                            <div class="row no-margin ">
                                 <!--  Contact Form  -->
                                 <div class="col-md-5 padding-leftright-null">
                                     <div class="text padding-md-top-null">
@@ -279,34 +306,36 @@
                                     <div class="row no-margin padding-onlytop-md">
                                         <div class="col-md-6 padding-leftright-null">
                                             <div class="text padding-md-top-null">
-                                                <h3 class="margin-bottom-small">公司地址</h3>
-                                                <p class="margin-null">江苏省昆山市智谷创意产业园</p>
+                                                <h3 class="margin-bottom-small">协会地址</h3>
+                                                <p class="margin-null">〒105-0013<br>東京都港区浜松町1-14-8 浜松町紋新ビル3F</p>
                                             </div>
                                         </div>
                                         <div class="col-md-6 padding-leftright-null">
-                                            <div class="text padding-md-top-null">
-                                               <h3 class="margin-bottom-small">全国服务热线</h3>
-                                                <p class="margin-bottom-extrasmall"><a href="" class="simple">400-12345678
-                                                   </a></p>
-                                               <p class="margin-null"><a href="" class="simple">12345678909</a></p>
-                                           </div>
+                                            <div class="text padding-md-top-null padding-md-bottom-null">
+                                                <h3 class="margin-bottom-small">交通</h3>
+                                                <p class="margin-bottom-extrasmall">JR滨松町站步行5分钟</p>
+                                                <p class="margin-null">都营大江户线大门站步行5分钟</p>
+                                            </div>
                                         </div>
+
                                     </div>
                                     <div class="row no-margin">
                                         <div class="col-md-6 padding-leftright-null">
                                             <div class="text padding-md-top-null">
                                                 <h3 class="margin-bottom-small">发送邮件</h3>
-                                                <p class="margin-bottom-extrasmall"><a href="" class="simple">123456@123.com</a></p>
-                                                <p class="margin-null"><a href="" class="simple">hello@123.com</a></p>
+                                                <p class="margin-bottom-extrasmall"><a href="" class="simple">info@ks-global.co.jp</a></p>
+<!--                                                <p class="margin-null"><a href="" class="simple">hello@123.com</a></p>-->
                                             </div>
                                         </div>
                                         <div class="col-md-6 padding-leftright-null">
-                                            <div class="text padding-md-top-null padding-md-bottom-null">
-                                                <h3 class="margin-bottom-small">赶快和我们有个项目合作吧</h3>
-                                                <p class="margin-bottom-extrasmall">诚实、质量</p>
-                                                <p class="margin-null">高效、便捷</p>
+                                            <div class="text padding-md-top-null">
+                                                <h3 class="margin-bottom-small">联系电话</h3>
+                                                <!--                                                <p class="margin-bottom-extrasmall"><a href="" class="simple">+81 03 4500 2068-->
+                                                <!--                                                   </a></p>-->
+                                                <p class="margin-null"><a href="" class="simple">+81 03 4500 2068</a></p>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
                                 <!--  END Contact Info  -->
@@ -314,43 +343,46 @@
                         </div>
                     </div>
                     <!--  END Contact section  -->
-                    <div class="row no-margin">
-                        <!--  Map. Settings in maps.js  -->
-                        <div class="col-md-12 padding-leftright-null map">
-                            <div id="map"></div>
-                        </div>
-                        <!--  END Map  -->
-                    </div>
+<!--                    <div class="row no-margin">-->
+<!--                        &lt;!&ndash;  Map. Settings in maps.js  &ndash;&gt;-->
+<!--                        <div class="col-md-12 padding-leftright-null map">-->
+
+<!--                        </div>-->
+<!--                        &lt;!&ndash;  END Map  &ndash;&gt;-->
+<!--                    </div>-->
                 </div>
             </div>
             <!--  END Page Content -->
         </div>
         <!--  Main Wrap  -->
-        
+
 
         <!--  Footer  -->
         <footer>
             <div class="container">
                 <div class="row no-margin">
                     <div class="col-md-3 text">
-                        <div class="logo">
-                            <img src="assets/img/logo-bk.png" class="normal" alt="logo">
-                        </div>
-                        <p>团队有多年丰富的设计经验，了解最新网站体验及交互原则，专注于创意设计实现商业价值最大化 </p>
-                        
+
+                        <h4 class="heading white margin-bottom-small weight-300">日中AI·IoT产业联盟</h4>
+                        <!--                    <img src="assets/img/logo-bk.png" class="normal" alt="logo">-->
+
+                        <p>
+                            促进中日技术与产业化交流与合作，科技创新和交流实践的高端平台,
+                            开启旅日科技团体合作共赢新局面
+                        </p>
+
                     </div>
                     <div class="col-md-3 text small">
                         <h4 class="heading white margin-bottom-small weight-300">联系我们</h4>
-                        <p>地址：江苏省昆山市智谷创意产业园</p>
-                        <p>服务热线：400-12345678</p>
-                        <p>邮箱：123456@123.com</p>
+                        <p>〒105-0013東京都港区浜松町1-14-8 浜松町紋新ビル3F</p>
+                        <p>+81 03 4500 2068</p>
+                        <p>info@ks-global.co.jp</p>
                     </div>
                     <div class="col-md-2 text small">
                         <h4 class="heading white margin-bottom-small weight-300">网站链接</h4>
                         <ul class="info">
                             <li><a href="index_cn.html">网站首页</a></li>
                             <li><a href="about_cn.html">关于我们</a></li>
-                            <li><a href="services_cn.html">服务介绍</a></li>
                             <li><a href="news_cn.html">新闻中心</a></li>
                             <li><a href="contact_cn.html">联系我们</a></li>
                         </ul>
@@ -376,13 +408,13 @@
             <div class="container">
                 <div class="row no-margin">
                     <div class="col-md-12 text text-center">
-                        <p>Copyright &copy; 2017.Company name All rights reserved.</p>
+                        <p>Copyright &copy; 2017~2021.Company name All rights reserved.</p>
                     </div>
                 </div>
             </div>
         </div>
         <!--  END Footer. Class fixed for fixed footer  -->
-        
+
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="assets/js/jquery.min.js"></script>
         <!-- All js library -->
