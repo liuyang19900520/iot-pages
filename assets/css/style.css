@@ -2017,7 +2017,7 @@ header nav.navbar .secondary-menu-mobile {
 
 @media screen and (min-width: 601px) {
     header nav.navbar .secondary-menu-mobile {
-        /*display: none;*/
+        display: none;
     }
 }
 
