@@ -4509,13 +4509,17 @@ aside.left form .form-input span.form-button {
     }
 }
 
-.mobile-flex-none{
-    display: flex;flex-direction: row;align-items: center ! important
+.mobile-flex-none {
+    display: flex;
+    flex-direction: row;
+    align-items: center ! important
 }
+
 @media screen and (max-width: 480px) {
 
-    .mobile-flex-none{
-
+    .mobile-flex-none {
+        display: block;
+        padding: 25px;
     }
 
     .mobile-none {
